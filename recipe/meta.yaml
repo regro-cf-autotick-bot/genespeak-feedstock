@@ -1,5 +1,5 @@
 {% set name = "genespeak" %}
-{% set version = "0.0.5" %}
+{% set version = "0.0.7" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/genespeak-{{ version }}.tar.gz
-  sha256: 40f4945229b68b941b38bf53875497fc9d08305588bb8b521eadcf08380e48f0
+  sha256: ec12783122d1f6307c6103b3e237f0539b948024f20be5c97713e4bc13ed9234
 
 build:
   number: 0
