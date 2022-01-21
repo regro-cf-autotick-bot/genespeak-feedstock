@@ -13,12 +13,16 @@ Development: https://github.com/sugatoray/genespeak/
 
 Documentation: https://sugatoray.github.io/genespeak/
 
+<a href="https://github.com/sugatoray/genespeak/">
+  <img src="https://raw.githubusercontent.com/sugatoray/genespeak/master/docs/assets/images/genespeak_banner_01.png" alt="genespeak-banner" />
+</a>
+
 GeneSpeak allows you to encode regular text as DNA using
-base-pairs (`A`, `T`, `G`, `C`) and convert back to the
+base-pairs (`A`, `C`, `G`, `T`) and convert back to the
 original text. Text encoding is done for both `ascii` and
 `utf-8` characters based on the `strategy` keyword argument.
 
-PyPI: <https://pypi.org/project/genespeak/>
+PyPI: [https://pypi.org/project/genespeak/](https://pypi.org/project/genespeak/)
 
 
 Current build status
