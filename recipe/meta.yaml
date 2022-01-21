@@ -1,5 +1,5 @@
 {% set name = "genespeak" %}
-{% set version = "0.0.8" %}
+{% set version = "0.0.9" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/genespeak-{{ version }}.tar.gz
-  sha256: b17f06171e17f541289e1df7eca8c70a29bdfcf1862c5be98e2e694788bb8f65
+  sha256: 349bf672831c431c9201911c16fe80a820375fc8c1b7669f746ecc8905b1ca6d
 
 build:
   number: 0
@@ -35,11 +35,11 @@ about:
   summary: A library to encode text as DNA and decode DNA to text.
   license: MIT
   license_file: LICENSE
-  description: |    
+  description: |
     <a href="https://github.com/sugatoray/genespeak/">
       <img src="https://raw.githubusercontent.com/sugatoray/genespeak/master/docs/assets/images/genespeak_banner_01.png" alt="genespeak-banner" />
     </a>
-    
+
     GeneSpeak allows you to encode regular text as DNA using 
     base-pairs (`A`, `C`, `G`, `T`) and convert back to the 
     original text. Text encoding is done for both `ascii` and 
